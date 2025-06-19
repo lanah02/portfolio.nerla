@@ -58,7 +58,7 @@ nav ul li a {
 .apropos .texte {
   width: 60%;
 }
-.apropos .photo img{
+.apropos .photo img {
   width: 150px;
   height: 150px;
   object-fit: cover;
