@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio de Nerla</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">NERLA</div>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil" class="hero">
+    <h1>Je suis <span class="color">Marie Nerla Noëlla SIMÉON</span>, passionnée par le digital !</h1>
+    <a class="btn" href="#projets">Voir mes projets</a>
+  </section>
+
+  <section id="apropos" class="apropos">
+    <h2>À propos</h2>
+    <div class="content">
+      <div class="texte">
+        <p>Je suis Nerla, fascinée par l’univers du digital, passionnée par la communication et la gestion des réseaux sociaux. Étudiante en gestion et développement web, je cherche à améliorer mes compétences digitales.</p>
+        <p>Curieuse et enthousiaste, je m’investis dans chaque projet personnel, académique ou professionnel. Je souhaite m’engager dans un projet à impact positif, tout en évoluant sur le plan personnel et professionnel.</p>
+      </div>
+      <div class="photo">
+        <img src="images/nerla.jpg" alt="Photo de Nerla">
+      </div>
+    </div>
+  </section>
+
+  <section id="projets" class="projets">
+    <h2>Mes Projets</h2>
+    <div class="project-cards">
+      <div class="card">
+        <p>Site pour une agence de voyage</p>
+        <a class="btn" href="#">Voir</a>
+      </div>
+      <div class="card">
+        <p>Formulaire d'inscription à une école privée</p>
+        <a class="btn" href="#">Voir</a>
+      </div>
+      <div class="card">
+        <p>Formulaire pour postuler dans une entreprise</p>
+        <a class="btn" href="#">Voir</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="competences" class="competences">
+    <h2>Mes Compétences</h2>
+    <div class="skills">
+      <div class="skill">
+        <p>Word</p>
+        <div class="bar"><div style="width: 90%;"></div></div>
+      </div>
+      <div class="skill">
+        <p>Canva</p>
+        <div class="bar"><div style="width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <p>Développement Web</p>
+        <div class="bar"><div style="width: 60%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Vous avez un projet en tête ?</h2>
+    <p>N'hésitez pas à me contacter</p>
+    <form id="contactForm">
+      <input type="text" id="nom" placeholder="Prénom et nom">
+      <input type="email" id="email" placeholder="Adresse e-mail">
+      <textarea id="message" placeholder="Message"></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Portfolio réalisé en HTML, CSS et JS - 2025</p>
+  </footer>
+</body>
+</html>
